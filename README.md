@@ -1,4 +1,4 @@
-A jquery header slider library to slide contents of the header ;)
+A jquery header slider [npm based](https://www.npmjs.com/package/jq-header-slider) package to slide contents of the header ;)
 
 ## installation
 
