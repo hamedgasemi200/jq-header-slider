@@ -1,0 +1,31 @@
+{
+  "name": "jq-header-slider",
+  "version": "1.0.0",
+  "description": "A jquery based package to slide header contents.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamedgasemi200/jqHeaderSlider.git"
+  },
+  "keywords": [
+    "jq",
+    "jquery",
+    "header",
+    "slider",
+    "sliding",
+    "header_sliding"
+  ],
+  "author": {
+    "name": "X4748",
+    "email": "hamedgasemi200@yahoo.com",
+    "url": "https://tridectet.ir/fa/u/x4748"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamedgasemi200/jqHeaderSlider/issues"
+  },
+  "homepage": "https://github.com/hamedgasemi200/jqHeaderSlider#readme"
+}
