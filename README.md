@@ -25,4 +25,4 @@ window.header_slider($('.card-text').first(), {
 
 ## Author
 
-X 47 48 - Tridectet: https://tridectet.ir/u/x4748
+[X4748](https://tridectet.ir/u/x4748)
