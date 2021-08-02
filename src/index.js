@@ -121,7 +121,7 @@ module.exports = (container, usr_conf = {}) => {
 
         // Add color to the headers
         header.jq.css({
-            color: shadeColor(config.color, -(header.size * 15)),
+            color: shadeColor(config.color, -(header.size * 10)),
             cursor: 'pointer',
         });
 
