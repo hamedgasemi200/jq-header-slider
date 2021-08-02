@@ -1,6 +1,6 @@
 {
   "name": "jq-header-slider",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A jquery based package to slide header contents.",
   "main": "src/index.js",
   "scripts": {

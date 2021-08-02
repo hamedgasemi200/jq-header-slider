@@ -120,7 +120,10 @@ module.exports = (container, usr_conf = {}) => {
         };
 
         // Add color to the headers
-        header.jq.addClass('c-pointer').css({color: shadeColor(config.color, -(header.size * 15))});
+        header.jq.css({
+            color: shadeColor(config.color, -(header.size * 15)),
+            cursor: 'pointer',
+        });
 
         // Triggers
         header.jq.on('click', function () {
