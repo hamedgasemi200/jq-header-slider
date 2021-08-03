@@ -9,7 +9,9 @@ module.exports = (container, usr_conf = {}) => {
 
     // Set configuration
     let config = {
-        color: '#3c7dff',
+        color: '#3c7dff',  // Headers Colors
+        change_rate: 13,   // How large color has to change
+        change_sign: -1,   // +1 or -1
         closed_by_default: false,
     }
     for (let atr in usr_conf) config[atr] = usr_conf[atr];
@@ -121,7 +123,7 @@ module.exports = (container, usr_conf = {}) => {
 
         // Add color to the headers
         header.jq.css({
-            color: shadeColor(config.color, -(header.size * 10)),
+            color: shadeColor(config.color, parseInt(config.change_sign) * (header.size * config.change_rate)),
             cursor: 'pointer',
         });
 
