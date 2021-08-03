@@ -18,8 +18,10 @@ To use this library after including it run the following code
 
 ```
 window.header_slider($('.card-text').first(), {
-	color: '#3c7dff',         // the color of the headers
-	closed_by_default: false, // slide the headers by default or not
+        color: '#3c7dff',          // Headers Color.
+        change_rate: 13,           // How large color has to be changed.
+        change_sign: -1,           // +1 or -1.
+        closed_by_default: false,  // If headers must be closed by default or not.
 });
 ```
 
